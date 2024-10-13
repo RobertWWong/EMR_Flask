@@ -1,8 +1,8 @@
 import unittest
 
-from user_service import UserService
-from billing_service import BillingService
-from cart_service import CartService
+from services.user_service import UserService
+from services.billing_service import BillingService
+from services.cart_service import CartService
 
 
 class TestServices(unittest.TestCase):
